@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import './App.css';
 import reportWebVitals from './reportWebVitals';
 import About from './components/About';
@@ -14,11 +14,11 @@ root.render(
   <React.StrictMode>
     <Background />
     <RightPanel />
-    <BrowserRouter>
+    <HashRouter>
       <div id="about"><About /></div>
       <div id="projects"><Projects /></div>
       <div id="education"><Education /></div>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
