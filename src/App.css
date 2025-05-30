@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+#icon-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.tech-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.tech-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  opacity: 0.2; /* Más visibles */
+  pointer-events: none;
+}
+
+/* Rotación sólo para React */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.icon-react {
+  animation: rotate 10s linear infinite;
+}
+
+/* Glow por tecnología */
+.icon-javascript {
+  filter: drop-shadow(0 0 12px rgba(247, 223, 30, 0.6));
+}
+
+.icon-react {
+  filter: drop-shadow(0 0 15px rgba(97, 218, 251, 0.8));
+}
+
+.icon-html {
+  filter: drop-shadow(0 0 12px rgba(227, 76, 38, 0.6));
+}
+
+.icon-css {
+  filter: drop-shadow(0 0 12px rgba(38, 77, 228, 0.6));
+}
+
+.icon-python {
+  filter: drop-shadow(0 0 12px rgba(48, 105, 152, 0.6));
+}
+
+.icon-nodejs {
+  filter: drop-shadow(0 0 12px rgba(104, 160, 99, 0.6));
+}
