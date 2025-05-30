@@ -47,5 +47,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/JuanoBQ/portfolio"
+  "homepage": "https://github.com/JuanoBQ/portfolio",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }

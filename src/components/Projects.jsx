@@ -25,6 +25,7 @@ import {
   SiJsonwebtokens,
   SiStripe,
 } from 'react-icons/si';
+import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 
 import SK1 from '../assets/SkillMatch.png';
 import SK2 from '../assets/SkillMatch2.png';
@@ -103,7 +104,8 @@ const Projects = () => {
           mb: 4,
         }}
       >
-        My last projects
+       <FolderOpenIcon sx={{ fontSize: '2rem', verticalAlign: 'middle', mr: 1 }} />
+       My last projects
       </Typography>
 
       <Grid container spacing={3} justifyContent="flex-start">

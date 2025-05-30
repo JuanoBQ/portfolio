@@ -16,7 +16,7 @@ const About = () => {
         justifyContent: 'center',
         margin: '0 auto',
         backgroundColor: 'transparent',
-        color: '#ffffff', // color blanco global para todo el texto dentro del Box
+        color: '#ffffff', 
         textAlign: 'left',
       }}
     >
@@ -28,7 +28,7 @@ const About = () => {
           fontWeight: 500,
           mb: 1,
           textShadow: '0 0 12px rgba(0, 0, 0, 0.67)',
-          color: '#ffffff', // aseguro que sea blanco
+          color: '#ffffff', 
         }}
       >
         Juan José Bravo
@@ -54,7 +54,7 @@ const About = () => {
           lineHeight: 1.6,
           mb: 5,
           fontWeight: 400,
-          color: '#ffffff', // también texto del párrafo en blanco
+          color: '#ffffff', 
         }}
       >
         Full-Stack Developer with previous experience as Civil Engineer managing complex projects. I
