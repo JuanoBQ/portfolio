@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/JuanoBQ/portfolio/static/css/main.ab943533.css",
+    "main.js": "/JuanoBQ/portfolio/static/js/main.a996606e.js",
+    "static/js/453.1407b060.chunk.js": "/JuanoBQ/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/StarWars.png": "/JuanoBQ/portfolio/static/media/StarWars.51262b0ecb114892e82f.png",
+    "static/media/SkillMatch.png": "/JuanoBQ/portfolio/static/media/SkillMatch.dffe754bcb04b552fec8.png",
+    "static/media/StarWars2.png": "/JuanoBQ/portfolio/static/media/StarWars2.7af32569052473790a5d.png",
+    "static/media/SkillMatch2.png": "/JuanoBQ/portfolio/static/media/SkillMatch2.f788034800c111c157c8.png",
+    "index.html": "/JuanoBQ/portfolio/index.html",
+    "main.ab943533.css.map": "/JuanoBQ/portfolio/static/css/main.ab943533.css.map",
+    "main.a996606e.js.map": "/JuanoBQ/portfolio/static/js/main.a996606e.js.map",
+    "453.1407b060.chunk.js.map": "/JuanoBQ/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab943533.css",
+    "static/js/main.a996606e.js"
+  ]
+}
